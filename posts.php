@@ -51,8 +51,7 @@
 
 				?>
           <?php $blog_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID));?>
-            <div class="news-block col-lg-6 col-md-6 col-sm-12 wow fadeInUp" id="<?php the_ID(); ?>"
-                data-wow-delay="300ms">
+            <div class="news-block col-lg-6 col-md-6 col-sm-12" id="<?php the_ID(); ?>">
                 <div class="inner-box">
                     <div class="image-box">
                         <figure class="image"><a href="<?php echo get_permalink($post->ID); ?>"><img src="<?php if (!empty($blog_image)) {

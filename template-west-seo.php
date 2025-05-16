@@ -18,7 +18,7 @@ Template Name: West SEO
 		<img loading='eager' fetchpriority='high' decoding='async' src='<?php echo $img; ?>' alt='Woodlands SEO Page' aria-hidden='true'>
 	</div>
 <div class="auto-container">
-<div class="outer-box wow fadeIn">
+<div class="outer-box">
 <h1 class="title"><?php the_title(); ?></h1>
 <p class="text-white">
 At Actual SEO Media Inc., we use our state-of-the-art training and technology to not only put you at the top of search engine lists but also keep you there. By using our expertise, our experience, and our special knowledge of Internet marketing tools, you enjoy a higher return on your internet marketing investment.

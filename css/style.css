@@ -4,12 +4,6 @@ Template Name: Desix
 Version: 1.0.0
 
 **********************************************/
-@import url("animate.css");
-@import url("owl.css");
-@import url("swipe.contact-info-block .innerr.min.css");
-@import url("jquery.fancybox.min.css");
-@import url("tm-bs-mp.css");
-@import url("tm-utility-classes.css");
 :root {
   --theme-color-light: #ffffff;
   --theme-color-dark: #18191c;
@@ -1486,72 +1480,6 @@ padding: 0;
   background-color: #ffffff;
 }
 
-/*========================
-  Select2 Dropdown Plugin
-========================*/
-.select2-dropdown {
-  border: 1px solid #eee;
-}
-
-.select2-results__option {
-  padding: 0 10px;
-  color: #7c858c;
-  border: 0;
-}
-
-.select2-container--default
-  .select2-selection--single
-  .select2-selection__rendered {
-  color: #7c858c;
-  padding-left: 0;
-}
-
-.select2-container--default
-  .select2-results__option--highlighted[aria-selected] {
-  background-color: var(--bg-theme-color1);
-}
-
-.select2-container--default .select2-search--dropdown .select2-search__field {
-  height: 30px;
-}
-
-.select2-container--default
-  .select2-selection--single
-  .select2-selection__arrow {
-  bottom: 1px;
-  height: auto;
-  width: 40px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  font-size: 12px;
-  color: #7c858c;
-}
-
-.select2-container--default
-  .select2-selection--single
-  .select2-selection__arrow:before {
-  position: relative;
-  content: "\f107";
-}
-
-.select2-container--default
-  .select2-selection--single
-  .select2-selection__arrow
-  b {
-  display: none;
-}
-
-.select2-container--default .select2-selection--single {
-  border-radius: 0;
-}
-
 .default-navs .owl-nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2583,20 +2511,7 @@ Header Style One
     display: none;
   }
 }
-.header-style-one .main-box .outer-box .search-btn {
-  padding: 27px 40px;
-  padding-left: 0;
-  height: auto;
-  width: auto;
-  line-height: 30px;
-  border-right: 1px solid rgba(255, 255, 255, 0.06);
-}
-@media (max-width: 1399.98px) {
-  .header-style-one .main-box .outer-box .search-btn {
-    border-radius: 0;
-    padding-right: 0;
-  }
-}
+
 
 /*** 
 
@@ -2676,20 +2591,6 @@ Header Style One
     display: none;
   }
 }
-.header-style-two .main-box .outer-box .search-btn {
-  padding: 27px 40px;
-  padding-left: 0;
-  height: auto;
-  width: auto;
-  line-height: 30px;
-  border-right: 1px solid rgba(255, 255, 255, 0.06);
-}
-@media (max-width: 1399.98px) {
-  .header-style-two .main-box .outer-box .search-btn {
-    padding-right: 0;
-  }
-}
-
 /*** 
 
 ====================================================================
@@ -6232,10 +6133,7 @@ Section Title
   color: #ff0000;
   margin-bottom: 0;
 }
-.contact-form
-  .form-group
-  .select2-container--default
-  .select2-selection--single,
+
 .contact-form .form-group input:not([type="submit"]),
 .contact-form .form-group textarea,
 .contact-form .form-group select {
@@ -9082,10 +8980,6 @@ Section Title
   color: #ff0000;
   margin-bottom: 0;
 }
-.contact-form-home5
-  .form-group
-  .select2-container--default
-  .select2-selection--single,
 .contact-form-home5 .form-group input:not([type="submit"]),
 .contact-form-home5 .form-group textarea,
 .contact-form-home5 .form-group select {
@@ -9852,45 +9746,6 @@ Section Title
 ====================================================================
 
 ***/
-.product-details .bxslider .image-box {
-  position: relative;
-  display: block;
-  margin-right: 30px;
-  margin-bottom: 10px;
-}
-.product-details .bxslider .image-box img {
-  width: 100%;
-}
-.product-details .bxslider .thumb-box li {
-  position: relative;
-  display: inline-block;
-  float: left;
-  margin-right: 10px;
-  margin-bottom: 15px;
-  width: 100px;
-  height: 100px;
-}
-.product-details .bxslider .thumb-box li:last-child {
-  margin: 0px !important;
-}
-.product-details .bxslider .thumb-box li a {
-  position: relative;
-  display: inline-block;
-}
-.product-details .bxslider .thumb-box li a:before {
-  position: absolute;
-  content: "";
-  left: 0px;
-  top: 0px;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
-}
-.product-details .bxslider .thumb-box li a.active:before {
-  opacity: 1;
-}
 .product-details .bx-wrapper {
   margin-bottom: 30px;
 }
@@ -10046,62 +9901,6 @@ Section Title
   align-items: center;
   margin-top: 20px;
 }
-.product-details__quantity .quantity-box {
-  position: relative;
-  width: 98px;
-  border-radius: 10px;
-  height: 60px;
-}
-.product-details__quantity .quantity-box input {
-  width: 98px;
-  border-radius: 10px;
-  height: 60px;
-  border: 1px solid #e0e4e8;
-  -webkit-appearance: textfield;
-  -moz-appearance: textfield;
-  padding-left: 30px;
-  outline: none;
-  font-size: 18px;
-  font-weight: 500;
-  color: var(--theme-color1);
-}
-.product-details__quantity .quantity-box button {
-  width: 29px;
-  height: 29px;
-  background-color: transparent;
-  color: var(--text-color-bg-theme-color1);
-  font-size: 8px;
-  position: absolute;
-  top: 1px;
-  right: 1px;
-  background-color: var(--theme-color1);
-  border: none;
-  border-left: 1px solid #e0e4e8;
-  border-top-right-radius: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  outline: none;
-  -webkit-transition: all 300ms ease;
-  transition: all 300ms ease;
-}
-.product-details__quantity .quantity-box button:hover {
-  color: var(--text-color-bg-theme-color2);
-  background-color: var(--theme-color2);
-}
-.product-details__quantity .quantity-box button.sub {
-  bottom: 1px;
-  top: auto;
-  border-top-right-radius: 0px;
-  border-bottom-right-radius: 10px;
-}
-
 .product-discription {
   position: relative;
   display: block;

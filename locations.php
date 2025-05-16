@@ -67,7 +67,7 @@
 
 							<!--Start Services Details Sidebar Single-->
 							<div class="sidebar-widget service-sidebar-single mt-4">
-								<div class="service-sidebar-single-btn wow fadeInUp" data-wow-delay="0.5s" data-wow-duration="1200m">
+								<div class="service-sidebar-single-btn">
 									<a href="#" class="theme-btn btn-style-one d-grid"><span class="btn-title"><span class="fas fa-file-pdf"></span> download pdf file</span></a>
 								</div>
 							</div>
@@ -122,7 +122,7 @@
 						<div class=" mt-25">
 							<h3>Frequently Asked Question</h3>
 							<p>Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-							<ul class="accordion-box wow fadeInRight">
+							<ul class="accordion-box">
 								<!--Block-->
 								<li class="accordion block">
 									<div class="acc-btn">#1: Ask to see a list of past and current clients
@@ -211,7 +211,7 @@
 				</ul>
 				<h6 class="text-center p-30">Actual SEO Media, Inc. has many clients, and we are dedicated to providing the best services possible to each of them. Our client support team is the best way to obtain that objective.</h6>
 				<!-- Features Block -->
-				<div class="feature-block-home5 col-lg-4 col-md-6 wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
+				<div class="feature-block-home5 col-lg-4 col-md-6">
 					<div class="inner-box">
 						<div class="content">
 							<div class="text text-light">
@@ -232,7 +232,7 @@
 				</div>
 
 				<!-- Features Block -->
-				<div class="feature-block-home5 col-lg-4 col-md-6 wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
+				<div class="feature-block-home5 col-lg-4 col-md-6">
 					<div class="inner-box">
 						<div class="content">
 							<div class="text text-light">
@@ -252,7 +252,7 @@
 				</div>
 
 				<!-- Features Block -->
-				<div class="feature-block-home5 col-lg-4 col-md-6 wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
+				<div class="feature-block-home5 col-lg-4 col-md-6">
 					<div class="inner-box">
 						<div class="content">
 							<div class="text text-light">

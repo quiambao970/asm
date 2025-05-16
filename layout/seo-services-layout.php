@@ -110,7 +110,7 @@
 		<div class="bg bg-image" style="background-image: url('<?php echo esc_url( get_stylesheet_directory_uri() . '/images/background/1.jpg' ); ?>');"></div>
 
 		<div class="auto-container">
-			<div class="outer-box wow fadeIn">
+			<div class="outer-box">
 				<h2 class="title">The best digital marketing services at your <br>fingertips</h2>
 				<a aria-label="Get In Touch" href="tel:8328340661" class="theme-btn btn-style-one hvr-dark"><span class="btn-title">Get In Touch</span></a>
 			</div>

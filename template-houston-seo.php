@@ -18,7 +18,7 @@ get_header();
 		<img loading='eager' fetchpriority='high' decoding='async' src='<?php echo $img; ?>' alt='Woodlands SEO Page' aria-hidden='true'>
 	</div>
 <div class="auto-container">
-<div class="outer-box wow fadeIn">
+<div class="outer-box">
 <h1 class="title"><?php the_title(); ?></h1>
 <p class="text-white">
 Actual SEO Media, Inc. has successfully helped a large and ever-growing number of local business owners

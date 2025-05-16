@@ -51,7 +51,7 @@ $recent_posts = new WP_Query($args); // Initialize WP_Query
                     $blog_image = get_the_post_thumbnail_url() ?: get_template_directory_uri() . '/images/resource/news-1.jpg';
                     $post_excerpt = wp_trim_words(get_the_excerpt(), 25);
             ?>
-                <div class="news-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp" id="<?php the_ID(); ?>" data-wow-delay="300ms">
+                <div class="news-block col-lg-4 col-md-6 col-sm-12" id="<?php the_ID(); ?>">
                     <div class="inner-box">
                         <div class="image-box">
                             <figure class="image">
@@ -115,9 +115,7 @@ $recent_posts = new WP_Query($args); // Initialize WP_Query
         <div class="outer-box">
             <div class="row">
                 <!-- Content Column -->
-                <div class="content-column col-xl-6 col-lg-7 col-md-12 col-sm-12 order-2 wow fadeInRight animated"
-                    data-wow-delay="600ms"
-                    style="visibility: visible; animation-delay: 600ms; animation-name: fadeInRight;">
+                <div class="content-column col-xl-6 col-lg-7 col-md-12 col-sm-12 order-2">
                     <div class="inner-column">
                         <div class="sec-title">
                             <span class="sub-title">About Blogging</span>
@@ -136,16 +134,13 @@ $recent_posts = new WP_Query($args); // Initialize WP_Query
                 </div>
                 <!-- Image Column -->
                 <div class="image-column col-xl-6 col-lg-5 col-md-12 col-sm-12">
-                    <div class="inner-column wow fadeInLeft animated"
-                        style="visibility: visible; animation-name: fadeInLeft;">
+                    <div class="inner-column">
                         <div class="image-box">
                             <span class="icon-dots2"></span>
-                            <figure class="image-1 overlay-anim wow fadeInUp animated"
-                                style="visibility: visible; animation-name: fadeInUp;"><img
+                            <figure class="image-1 overlay-anim"><img
                                     src="<?php echo get_template_directory_uri(); ?>/images/resource/about2-1.jpg"
                                     alt="Professional man enthusiastically using a laptop and smartphone to optimize SEO services."></figure>
-                            <figure class="image-2 overlay-anim wow fadeInRight animated"
-                                style="visibility: visible; animation-name: fadeInRight;"><img
+                            <figure class="image-2 overlay-anim"><img
                                     src="<?php echo get_template_directory_uri(); ?>/images/resource/about2-2.jpg"
                                     alt="A diverse team of professionals collaborating on blog content, reviewing documents, and working on a laptop in a bright office."></figure>
                             <div class="exp-box">

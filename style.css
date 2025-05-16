@@ -16,6 +16,13 @@ This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
 
+.leaflet-container {
+  height: 400px;
+  width: 100%;
+  max-width: 800px;
+  margin-top:20px;
+}
+
 .text-white p {
     color: #fff;
 }
@@ -410,45 +417,6 @@ table {
 ====================================================================
 
 ***/
-.product-details .bxslider .image-box {
-  position: relative;
-  display: block;
-  margin-right: 30px;
-  margin-bottom: 10px;
-}
-.product-details .bxslider .image-box img {
-  width: 100%;
-}
-.product-details .bxslider .thumb-box li {
-  position: relative;
-  display: inline-block;
-  float: left;
-  margin-right: 10px;
-  margin-bottom: 15px;
-  width: 100px;
-  height: 100px;
-}
-.product-details .bxslider .thumb-box li:last-child {
-  margin: 0px !important;
-}
-.product-details .bxslider .thumb-box li a {
-  position: relative;
-  display: inline-block;
-}
-.product-details .bxslider .thumb-box li a:before {
-  position: absolute;
-  content: "";
-  left: 0px;
-  top: 0px;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
-}
-.product-details .bxslider .thumb-box li a.active:before {
-  opacity: 1;
-}
 .product-details .bx-wrapper {
   margin-bottom: 30px;
 }
@@ -604,61 +572,7 @@ table {
   align-items: center;
   margin-top: 20px;
 }
-.product-details__quantity .quantity-box {
-  position: relative;
-  width: 98px;
-  border-radius: 10px;
-  height: 60px;
-}
-.product-details__quantity .quantity-box input {
-  width: 98px;
-  border-radius: 10px;
-  height: 60px;
-  border: 1px solid #e0e4e8;
-  -webkit-appearance: textfield;
-  -moz-appearance: textfield;
-  padding-left: 30px;
-  outline: none;
-  font-size: 18px;
-  font-weight: 500;
-  color: var(--theme-color1);
-}
-.product-details__quantity .quantity-box button {
-  width: 29px;
-  height: 29px;
-  background-color: transparent;
-  color: var(--text-color-bg-theme-color1);
-  font-size: 8px;
-  position: absolute;
-  top: 1px;
-  right: 1px;
-  background-color: var(--theme-color1);
-  border: none;
-  border-left: 1px solid #e0e4e8;
-  border-top-right-radius: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  outline: none;
-  -webkit-transition: all 300ms ease;
-  transition: all 300ms ease;
-}
-.product-details__quantity .quantity-box button:hover {
-  color: var(--text-color-bg-theme-color2);
-  background-color: var(--theme-color2);
-}
-.product-details__quantity .quantity-box button.sub {
-  bottom: 1px;
-  top: auto;
-  border-top-right-radius: 0px;
-  border-bottom-right-radius: 10px;
-}
+
 
 .product-discription {
   position: relative;

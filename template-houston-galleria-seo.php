@@ -18,7 +18,7 @@ Template Name: Houston Galleria SEO
 		<img loading='eager' fetchpriority='high' decoding='async' src='<?php echo $img; ?>' alt='Houston Galleria SEO Page' aria-hidden='true'>
 	</div>
 <div class="auto-container">
-<div class="outer-box wow fadeIn">
+<div class="outer-box">
 <h1 class="title"><?php the_title(); ?></h1>
 <p class="text-white">
 Actual SEO Media, Inc., is a local Houston Galleria SEO company that works with clients in many areas of Houston and beyond. The goal of our SEO services is to improve your search engine rankings on Google, Bing, and other famous search engines. Because SEO is so complicated, you need to hire a professional service to help your business. 

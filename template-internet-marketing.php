@@ -18,7 +18,7 @@ get_header();
 		<img loading='eager' fetchpriority='high' decoding='async' src='<?php echo $img; ?>' alt='Woodlands SEO Page' aria-hidden='true'>
     </div>
     <div class="auto-container">
-        <div class="outer-box wow fadeIn">
+        <div class="outer-box">
             <h1 class="title" style="margin-top: 2em;"><?php the_title(); ?></h1>
             <p class="text-white">
                 Every Houston business owner needs the right  <a href="/internet-marketing-agency/">internet marketing agency</a> to grow and take their business to the next level. Consider Actual SEO Media, Inc., and what we offer to every one of our current and future clients. Actual SEO Media, Inc. has been developed and trained in this very competitive market. We use state-of-the-art software to ensure the best results for our clients. They are the reason we strive to provide 
@@ -34,7 +34,7 @@ get_header();
 		<div class="container">
 			<div class="row">
 				<!-- Content Column -->
-				<div class="content-column col-lg-6 col-md-12 col-sm-12 order-2 wow fadeInRight">
+				<div class="content-column col-lg-6 col-md-12 col-sm-12 order-2">
 					<div class="inner-column">
 						<div class="sec-title">
 							<span class="sub-title">Why Choose Us</span>
@@ -64,12 +64,12 @@ get_header();
 				</div>
 
 				<!-- Image Column -->
-				<div class="image-column col-lg-6 col-md-12 col-sm-12 wow fadeInLeft">
+				<div class="image-column col-lg-6 col-md-12 col-sm-12">
 					<div class="image-box">
 						<span class="icon-dots bounce-y"></span>
 						<span class="icon-circle zoom-one"></span>
-						<figure class="image-1 wow fadeIn"><img src="<?php echo get_template_directory_uri(); ?>/images/resource/about-1.jpg" alt="Put Your Trust in Us and Watch Your Business Grow"></figure>
-						<figure class="image-2 wow fadeIn" data-wow-delay="600ms"><img src="<?php echo get_template_directory_uri(); ?>/images/resource/about-2.jpg" alt="Put Your Trust in Us and Watch Your Business Grow"></figure>
+						<figure class="image-1"><img src="<?php echo get_template_directory_uri(); ?>/images/resource/about-1.jpg" alt="Put Your Trust in Us and Watch Your Business Grow"></figure>
+						<figure class="image-2"><img src="<?php echo get_template_directory_uri(); ?>/images/resource/about-2.jpg" alt="Put Your Trust in Us and Watch Your Business Grow"></figure>
 					</div>
 				</div>
 			</div>
@@ -83,7 +83,7 @@ get_header();
 			<div class="row">
 				<!-- Content Column -->
 				<div class="content-column col-lg-6 col-md-12">
-					<div class="inner-column wow fadeInRight">
+					<div class="inner-column">
 						<div class="sec-title">
 							<i class="sub-title">Decoding seo</i>
 							<h2>Boost Your Online Visibility with Expert SEO Services</h2>
@@ -145,7 +145,7 @@ get_header();
 			</div>
 			<div class="row">
 				<!-- Service Block -->
-				<div class="service-block col-lg-3 col-md-6 coll-md-12 wow fadeInUp">
+				<div class="service-block col-lg-3 col-md-6 coll-md-12">
 					<div class="inner-box">
 						<div class="image-box">
 							<figure class="image"><img src="<?php echo get_template_directory_uri(); ?>/images/resource/service-1.jpg" alt="internet marketing strategy"></figure>
@@ -163,7 +163,7 @@ get_header();
 				</div>
 
 				<!-- Service Block -->
-				<div class="service-block col-lg-3 col-md-6 coll-md-12 wow fadeInUp">
+				<div class="service-block col-lg-3 col-md-6 coll-md-12">
 					<div class="inner-box">
 						<div class="image-box">
 							<figure class="image"><img src="<?php echo get_template_directory_uri(); ?>/images/resource/service-2.jpg" alt="Branding & Marketing"></figure>
@@ -182,7 +182,7 @@ get_header();
 				</div>
 
 				<!-- Service Block -->
-				<div class="service-block col-lg-3 col-md-6 coll-md-12 wow fadeInUp">
+				<div class="service-block col-lg-3 col-md-6 coll-md-12">
 					<div class="inner-box">
 						<div class="image-box">
 							<figure class="image"><img src="<?php echo get_template_directory_uri(); ?>/images/resource/service-3.jpg" alt="Digital Marketing"></figure>
@@ -200,7 +200,7 @@ get_header();
 				</div>
 
 				<!-- Service Block -->
-				<div class="service-block col-lg-3 col-md-6 coll-md-12 wow fadeInUp">
+				<div class="service-block col-lg-3 col-md-6 coll-md-12">
 					<div class="inner-box">
 						<div class="image-box">
 							<figure class="image"><img src="<?php echo get_template_directory_uri(); ?>/images/resource/service-4.jpg" alt="Young professional woman at an internet marketing agency, confidently working on her laptop in a bright, modern office setting."></figure>
@@ -217,7 +217,7 @@ get_header();
 					</div>
 				</div>
 				<!-- Service Block -->
-				<div class="service-block col-lg-3 col-md-6 coll-md-12 wow fadeInUp">
+				<div class="service-block col-lg-3 col-md-6 coll-md-12">
 					<div class="inner-box">
 						<div class="image-box">
 							<figure class="image"><img src="<?php echo get_template_directory_uri(); ?>/images/resource/service-4.jpg" alt="service-4"></figure>
@@ -236,7 +236,7 @@ get_header();
 				</div>
 
 				<!-- Service Block -->
-				<div class="service-block col-lg-3 col-md-6 coll-md-12 wow fadeInUp">
+				<div class="service-block col-lg-3 col-md-6 coll-md-12">
 					<div class="inner-box">
 						<div class="image-box">
 							<figure class="image"><img src="<?php echo get_template_directory_uri(); ?>/images/resource/service-3.jpg" alt="service-3"></figure>
@@ -255,7 +255,7 @@ get_header();
 
 			
 				<!-- Service Block -->
-				<div class="service-block col-lg-3 col-md-6 coll-md-12 wow fadeInUp">
+				<div class="service-block col-lg-3 col-md-6 coll-md-12">
 					<div class="inner-box">
 						<div class="image-box">
 							<figure class="image"><img src="<?php echo get_template_directory_uri(); ?>/images/resource/service-2.jpg" alt="service-2"></figure>
@@ -273,7 +273,7 @@ get_header();
 				</div>
 
 					<!-- Service Block -->
-				<div class="service-block col-lg-3 col-md-6 coll-md-12 wow fadeInUp">
+				<div class="service-block col-lg-3 col-md-6 coll-md-12">
 					<div class="inner-box">
 						<div class="image-box">
 							<figure class="image"><img src="<?php echo get_template_directory_uri(); ?>/images/resource/service-3.jpg" alt="digital marketing"></figure>
@@ -299,7 +299,7 @@ get_header();
 			<div class="outer-box">
 				<div class="row">
 					<!-- Content Column -->
-					<div class="content-column col-xl-6 col-lg-7 col-md-12 col-sm-12 order-2 wow fadeInRight" data-wow-delay="600ms">
+					<div class="content-column col-xl-6 col-lg-7 col-md-12 col-sm-12 order-2">
 						<div class="inner-column">
 							<div class="sec-title">
 								<span class="sub-title">Top Marketing Solutions</span>
@@ -332,11 +332,11 @@ get_header();
 
 					<!-- Image Column -->
 					<div class="image-column col-xl-6 col-lg-5 col-md-12 col-sm-12">
-						<div class="inner-column wow fadeInLeft">
+						<div class="inner-column">
 							<div class="image-box">
-								<figure class="image-1 overlay-anim wow fadeInUp"><img src="<?php echo get_template_directory_uri(); ?>/images/resource/about2-1.jpg" alt="Marketing Consultations"></figure>
+								<figure class="image-1 overlay-anim"><img src="<?php echo get_template_directory_uri(); ?>/images/resource/about2-1.jpg" alt="Marketing Consultations"></figure>
 
-								<figure class="image-2 overlay-anim wow fadeInRight"><img src="<?php echo get_template_directory_uri(); ?>/images/resource/about2-2.jpg" alt="Marketing Consultations"></figure>
+								<figure class="image-2 overlay-anim"><img src="<?php echo get_template_directory_uri(); ?>/images/resource/about2-2.jpg" alt="Marketing Consultations"></figure>
 							</div>
 						</div>
 					</div>
@@ -355,7 +355,7 @@ get_header();
 			</div>
 			<div class="row">
 				<div class="col">
-					<ul class="accordion-box wow fadeInRight">
+					<ul class="accordion-box">
 						<!--Block-->
 						<li class="accordion block active-block">
 							<div class="acc-btn active">What is Internet Marketing?

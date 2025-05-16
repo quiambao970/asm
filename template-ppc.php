@@ -25,7 +25,7 @@ get_header();
 		<div class="container">
 			<div class="row">
 				<!-- Content Column -->
-				<div class="content-column col-lg-6 col-md-12 col-sm-12 order-2 wow fadeInRight">
+				<div class="content-column col-lg-6 col-md-12 col-sm-12 order-2">
 					<div class="inner-column">
 						<div class="sec-title">
 							<span class="sub-title">Why Choose Us</span>
@@ -40,12 +40,12 @@ get_header();
 				</div>
 
 				<!-- Image Column -->
-				<div class="image-column col-lg-6 col-md-12 col-sm-12 wow fadeInLeft">
+				<div class="image-column col-lg-6 col-md-12 col-sm-12">
 					<div class="image-box">
 						<span class="icon-dots bounce-y"></span>
 						<span class="icon-circle zoom-one"></span>
-						<figure class="image-1 wow fadeIn"><img src="<?php echo get_template_directory_uri(); ?>/images/resource/about-1.jpg" alt="About ASM"></figure>
-						<figure class="image-2 wow fadeIn" data-wow-delay="600ms"><img src="<?php echo get_template_directory_uri(); ?>/images/resource/about-2.jpg" alt="About ASM"></figure>
+						<figure class="image-1"><img src="<?php echo get_template_directory_uri(); ?>/images/resource/about-1.jpg" alt="About ASM"></figure>
+						<figure class="image-2"><img src="<?php echo get_template_directory_uri(); ?>/images/resource/about-2.jpg" alt="About ASM"></figure>
 					</div>
 				</div>
 			</div>
@@ -91,7 +91,7 @@ get_header();
 			<div class="outer-box">
 				<div class="row">
 					<!-- Content Column -->
-					<div class="content-column col-xl-6 col-lg-7 col-md-12 col-sm-12 order-2 wow fadeInRight" data-wow-delay="600ms">
+					<div class="content-column col-xl-6 col-lg-7 col-md-12 col-sm-12 order-2">
 						<div class="inner-column">
 							<div class="sec-title">
 								<span class="sub-title">SEO & PPC Tactics</span>
@@ -108,11 +108,11 @@ get_header();
 
 					<!-- Image Column -->
 					<div class="image-column col-xl-6 col-lg-5 col-md-12 col-sm-12">
-						<div class="inner-column wow fadeInLeft">
+						<div class="inner-column">
 							<div class="image-box">
 								<span class="icon-dots2"></span>
-								<figure class="image-1 overlay-anim wow fadeInUp"><img src="<?php echo get_template_directory_uri(); ?>/images/resource/about2-1.jpg" alt="about2-1"></figure>
-								<figure class="image-2 overlay-anim wow fadeInRight"><img src="<?php echo get_template_directory_uri(); ?>/images/resource/about2-2.jpg" alt="About Us ASM"></figure>
+								<figure class="image-1 overlay-anim"><img src="<?php echo get_template_directory_uri(); ?>/images/resource/about2-1.jpg" alt="about2-1"></figure>
+								<figure class="image-2 overlay-anim"><img src="<?php echo get_template_directory_uri(); ?>/images/resource/about2-2.jpg" alt="About Us ASM"></figure>
 							</div>
 						</div>
 					</div>
@@ -127,7 +127,7 @@ get_header();
 			<div class="row">
 				<!-- Content Column -->
 				<div class="content-column col-lg-6 col-md-12">
-					<div class="inner-column wow fadeInRight">
+					<div class="inner-column">
 						<div class="sec-title">
 							<i class="sub-title">Craft, Optimize, Analyze</i>
 							<h2>Designing Your PPC Ads for Success</h2>
@@ -163,7 +163,7 @@ get_header();
 			</div>
 			<div class="row">
 				<div class="col">
-					<ul class="accordion-box wow fadeInRight">
+					<ul class="accordion-box">
 						<!--Block-->
 						<li class="accordion block active-block">
 							<div class="acc-btn active">1. What are Pay-Per-Click (PPC) Ads?

@@ -18,7 +18,7 @@ Template Name: Sugar Land SEO Page
 		<img loading='eager' fetchpriority='high' decoding='async' src='<?php echo $img; ?>' alt='<?php the_title(); ?>' aria-hidden='true'>
 	</div>
 <div class="auto-container">
-<div class="outer-box wow fadeIn">
+<div class="outer-box">
 <h1 class="title"><?php the_title(); ?></h1>
 <p class="text-white">
 Whether you need SEO for lawyers, plumbers, window cleaning services, HVAC services, or any other type of business, our experienced web marketers assist businesses in the Sugar Land area. We help improve your Google rank and online presence and achieve long-term results.

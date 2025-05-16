@@ -3,7 +3,7 @@
         <div class="auto-container">
             <div class="row">
                 <!-- Content Column -->
-                <div class="content-column col-lg-6 col-md-12 col-sm-12 order-2 wow fadeInRight">
+                <div class="content-column col-lg-6 col-md-12 col-sm-12 order-2">
                     <div class="inner-column">
                         <div class="sec-title">
                             <span class="sub-title">get to know us</span>
@@ -20,12 +20,12 @@ Actual SEO Media, Inc. works with our clients closely to increase your online pr
                 </div>
 
                 <!-- Image Column -->
-                <div class="image-column col-lg-6 col-md-12 col-sm-12 wow fadeInLeft">
+                <div class="image-column col-lg-6 col-md-12 col-sm-12">
                     <div class="image-box">
                         <span class="icon-dots bounce-y"></span>
                         <span class="icon-circle zoom-one"></span>
-                        <figure class="image-1 wow fadeIn"><img src="[base_url]/wp-content/themes/asmtheme/images/resource/about-1.jpg" alt=""></figure>
-                        <figure class="image-2 wow fadeIn" data-wow-delay="600ms"><img src="[base_url]/wp-content/themes/asmtheme/images/resource/about-2.jpg" alt=""></figure>
+                        <figure class="image-1"><img src="[base_url]/wp-content/themes/asmtheme/images/resource/about-1.jpg" alt=""></figure>
+                        <figure class="image-2"><img src="[base_url]/wp-content/themes/asmtheme/images/resource/about-2.jpg" alt=""></figure>
                         <div class="exp-box">
                             <div class="inner">
                                 <i class="icon flaticon-promotion"></i>
@@ -45,7 +45,7 @@ Actual SEO Media, Inc. works with our clients closely to increase your online pr
             <div class="outer-box">
                 <div class="row justify-content-center">
                     <!-- Service Block Two -->
-                    <div class="service-block-new-3 col-sm-12 col-md-4 p-1 wow fadeInUp animated animated animated" style="visibility: visible; animation-name: fadeInUp;">
+                    <div class="service-block-new-3 col-sm-12 col-md-4 p-1">
                         <div class="inner-box p-3">
                             <h6 class="title"><a href="https://stagingseo.com/dev" aria-label="drive Traffic">Expertise #1: Having a Tight Grasp of Online or Digital Marketing</a></h6>
                             <div class="text">
@@ -62,7 +62,7 @@ Actual SEO Media, Inc. works with our clients closely to increase your online pr
                         </div>
                     </div>
                     <!-- Service Block Two -->
-                    <div class="service-block-new-3 col-sm-12 col-md-4 p-1 wow fadeInUp animated animated animated" data-wow-delay="200ms" style="visibility: visible; animation-delay: 200ms; animation-name: fadeInUp;">
+                    <div class="service-block-new-3 col-sm-12 col-md-4 p-1">
                         <div class="inner-box p-3">
                              <h6 class="title"><a href="https://stagingseo.com/dev" aria-label="Enhance visibility">Expertise #2: Learning About Your Product & Services</a></h6>
                             <div class="text">
@@ -79,7 +79,7 @@ Actual SEO Media, Inc. works with our clients closely to increase your online pr
                         </div>
                     </div>
                     <!-- Service Block Two -->
-                    <div class="service-block-new-3 col-sm-12 col-md-4 p-1 wow fadeInUp animated animated animated" data-wow-delay="400ms" style="visibility: visible; animation-delay: 400ms; animation-name: fadeInUp;">
+                    <div class="service-block-new-3 col-sm-12 col-md-4 p-1">
                         <div class="inner-box p-3">
                             <h6 class="title"><a href="https://stagingseo.com/dev" aria-label="Increase Revenue">Expertise #3: Keeping an Eye on Current Trends, Pop Culture, and Popular Interests</a></h6>
                             <div class="text">
@@ -94,7 +94,7 @@ Actual SEO Media, Inc. works with our clients closely to increase your online pr
                         </div>
                     </div>
      <!-- Service Block Two -->
-                    <div class="service-block-new-3 col-sm-12 col-md-4 p-1 wow fadeInUp animated animated animated" style="visibility: visible; animation-name: fadeInUp;">
+                    <div class="service-block-new-3 col-sm-12 col-md-4 p-1">
                         <div class="inner-box p-3">
                             <h6 class="title"><a href="https://stagingseo.com/dev" aria-label="drive Traffic">Expertise #4: Analyzing the Stats of the Web Analytics</a></h6>
                             <div class="text">
@@ -109,7 +109,7 @@ Actual SEO Media, Inc. works with our clients closely to increase your online pr
                         </div>
                     </div>
                     <!-- Service Block Two -->
-                    <div class="service-block-new-3 col-sm-12 col-md-4 p-1 wow fadeInUp animated animated animated" data-wow-delay="200ms" style="visibility: visible; animation-delay: 200ms; animation-name: fadeInUp;">
+                    <div class="service-block-new-3 col-sm-12 col-md-4 p-1">
                         <div class="inner-box p-3">
                              <h6 class="title"><a href="https://stagingseo.com/dev" aria-label="Enhance visibility">Expertise #5: Managing Your Social Media Interactions for a Positive Image</a></h6>
                             <div class="text">
@@ -124,7 +124,7 @@ Actual SEO Media, Inc. works with our clients closely to increase your online pr
                         </div>
                     </div>
                     <!-- Service Block Two -->
-                    <div class="service-block-new-3 col-sm-12 col-md-4 p-1 wow fadeInUp animated animated animated" data-wow-delay="400ms" style="visibility: visible; animation-delay: 400ms; animation-name: fadeInUp;">
+                    <div class="service-block-new-3 col-sm-12 col-md-4 p-1">
                         <div class="inner-box p-3">
                             <h6 class="title"><a href="[base_url]" aria-label="Increase Revenue">Expertise #3: Keeping an Eye on Current Trends, Pop Culture, and Popular Interests</a></h6>
                             <div class="text">
@@ -156,7 +156,7 @@ Actual SEO Media, Inc. works with our clients closely to increase your online pr
                 <div class="faq-column content-column position-relative col-lg-8 col-md-12 col-sm-12">
                     <div class="inner-column p-40">
 
-                        <ul class="accordion-box wow fadeInRight">
+                        <ul class="accordion-box">
                                 <!--Block-->
                             <li class="accordion block">
                                 <div class="acc-btn ">Content Type #1: Web Pages Create a Web of Words that Ensnare Those Looking for Them
@@ -227,7 +227,7 @@ Actual SEO Media, Inc. works with our clients closely to increase your online pr
                     <div class="inner-column">
                         <div class="image-box">
                             <figure class="image"><img src="[template_url]/images/resource/service-details.jpg" alt=""></figure>
-                            <div class="caption-box wow slideInRight animated" style="visibility: visible; animation-name: slideInRight;">
+                            <div class="caption-box">
                                 <div class="icon-box">
                                     <a href="https://www.youtube.com/watch?v=Fvae8nxzVz4" class="play-now-home4 lightbox-image"><i class="icon fa fa-play"></i></a>
                                 </div>

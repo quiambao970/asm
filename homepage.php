@@ -55,8 +55,7 @@
         <div class="outer-box">
             <div class="row justify-content-center">
                 <!-- Service Block Two -->
-                <div class="service-block-new-3 col-sm-12 col-md-4 p-5 wow fadeInUp animated animated"
-                    style="visibility: visible; animation-name: fadeInUp;">
+                <div class="service-block-new-3 col-sm-12 col-md-4 p-5">
                     <div class="inner-box p-3">
                         <i class="icon flaticon-digital-services"></i>
                         <h6 class="title"><a href="<?php echo site_url(); ?>" aria-label="Drive Traffic">Drive
@@ -67,9 +66,7 @@
                 </div>
 
                 <!-- Service Block Two -->
-                <div class="service-block-new-3 col-sm-12 col-md-4 p-5 wow fadeInUp animated animated" 
-					data-wow-delay="200ms" 
-					style="visibility: visible; animation-delay: 200ms; animation-name: fadeInUp;">
+                <div class="service-block-new-3 col-sm-12 col-md-4 p-5">
                     <div class="inner-box p-3">
                         <i class="icon flaticon-teaching"></i>
                         <h6 class="title"><a href="<?php echo site_url(); ?>" aria-label="Enhance Visibity">Enhance 
@@ -79,9 +76,7 @@
                     </div>
                 </div>
                 <!-- Service Block Two -->
-                <div class="service-block-new-3 col-sm-12 col-md-4 p-5 wow fadeInUp animated animated"
-                    data-wow-delay="400ms"
-                    style="visibility: visible; animation-delay: 400ms; animation-name: fadeInUp;">
+                <div class="service-block-new-3 col-sm-12 col-md-4 p-5">
                     <div class="inner-box p-3">
                         <i class="icon flaticon-technology"></i>
                         <h6 class="title"><a href="<?php echo site_url(); ?>" aria-label="Increase Revenue">Increase
@@ -99,7 +94,7 @@
     <div class="auto-container">
         <div class="row">
             <!-- Content Column -->
-            <div class="content-column col-lg-6 col-md-12 col-sm-12 order-2 wow fadeInRight">
+            <div class="content-column col-lg-6 col-md-12 col-sm-12 order-2">
                 <div class="inner-column">
                     <div class="sec-title">
                         <h2>Help New Customers Find Your Business Online</h2>
@@ -167,14 +162,14 @@
                 </div>
             </div>
             <!-- Image Column -->
-            <div class="image-column col-lg-6 col-md-12 col-sm-12 wow fadeInLeft">
+            <div class="image-column col-lg-6 col-md-12 col-sm-12">
                 <div class="image-box">
                     <span class="icon-dots bounce-y"></span>
                     <span class="icon-circle zoom-one"></span>
-                    <figure class="image-1 wow fadeIn"><img
+                    <figure class="image-1"><img
                             src="<?php echo get_template_directory_uri(); ?>/images/resource/about1.webp" alt="">
                     </figure>
-                    <figure class="image-2 wow fadeIn" data-wow-delay="600ms"><img
+                    <figure class="image-2"><img
                             src="<?php echo get_template_directory_uri(); ?>/images/resource/about-2.jpg" alt="">
                     </figure>
                 </div>
@@ -194,7 +189,7 @@
 
         <div class="row">
             <!-- Service Block -->
-            <div class="service-block-new-1 col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
+            <div class="service-block-new-1 col-lg-4 col-md-6 col-sm-12">
                 <div class="inner-box">
                     <div class="image-box">
                         <figure class="image"><a href="<?php echo site_url(); ?>/seo-services/"><img
@@ -217,7 +212,7 @@
             </div>
 
             <!-- Service Block -->
-            <div class="service-block-new-1 col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="300ms">
+            <div class="service-block-new-1 col-lg-4 col-md-6 col-sm-12">
                 <div class="inner-box">
                     <div class="image-box">
                         <figure class="image"><a href="<?php echo site_url(); ?>/internet-marketing-agency/"
@@ -242,7 +237,7 @@
             </div>
 
             <!-- Service Block -->
-            <div class="service-block-new-1 col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="600ms">
+            <div class="service-block-new-1 col-lg-4 col-md-6 col-sm-12">
                 <div class="inner-box">
                     <div class="image-box">
                         <figure class="image"><a href="<?php echo site_url(); ?>/pay-per-click/"><img
@@ -276,8 +271,7 @@
         <div class="row">
             <!-- Content Column -->
             <div class="content-column col-lg-6 col-md-12">
-                <div class="inner-column wow fadeInRight animated"
-                    style="visibility: visible; animation-name: fadeInRight;">
+                <div class="inner-column">
                     <div class="sec-title">
                         <!-- <i class="sub-title">company benefits</i> -->
                         <h2>Our Mission</h2>
@@ -358,7 +352,7 @@
                     <div class="fact-counter">
                         <div class="row">
                             <!-- Counter block-->
-                            <div class="counter-block-new-3 col-lg-4 col-md-4 col-sm-12 wow fadeInUp">
+                            <div class="counter-block-new-3 col-lg-4 col-md-4 col-sm-12">
                                 <div class="inner">
                                     <div class="content">
                                         <i class="icon flaticon-job-promotion"></i>
@@ -370,8 +364,7 @@
                             </div>
 
                             <!--Counter block-->
-                            <div class="counter-block-new-3 col-lg-4 col-md-4 col-sm-12 wow fadeInUp"
-                                data-wow-delay="300ms">
+                            <div class="counter-block-new-3 col-lg-4 col-md-4 col-sm-12">
                                 <div class="inner">
                                     <div class="content">
                                         <i class="icon flaticon-recommend"></i>
@@ -383,8 +376,7 @@
                             </div>
 
                             <!--Counter block-->
-                            <div class="counter-block-new-3 col-lg-4 col-md-4 col-sm-12 wow fadeInUp"
-                                data-wow-delay="600ms">
+                            <div class="counter-block-new-3 col-lg-4 col-md-4 col-sm-12">
                                 <div class="inner">
                                     <div class="content">
                                         <i class="icon flaticon-teaching"></i>
@@ -408,7 +400,7 @@
         <div class="outer-box">
             <div class="row justify-content-center">
                 <!-- Service Block Two -->
-                <div class="service-block-new-3 col-sm-12 col-md-4 p-5 wow fadeInUp" data-wow-delay="600ms">
+                <div class="service-block-new-3 col-sm-12 col-md-4 p-5">
                     <div class="inner-box p-3">
                         <i class="icon  flaticon-graphic-design"></i>
                         <h6 class="title"><a href="<?php echo site_url(); ?>/about-our-team/"
@@ -419,7 +411,7 @@
                 </div>
 
                 <!-- Service Block Two -->
-                <div class="service-block-new-3 col-sm-12 col-md-4 p-5 wow fadeInUp" data-wow-delay="800ms">
+                <div class="service-block-new-3 col-sm-12 col-md-4 p-5">
                     <div class="inner-box p-3">
                         <i class="icon flaticon-laptop"></i>
                         <h6 class="title"><a href="<?php echo site_url(); ?>/detailed-reporting/"
@@ -432,7 +424,7 @@
                     </div>
                 </div>
                 <!-- Service Block Two -->
-                <div class="service-block-new-3 col-sm-12 col-md-4 p-5 wow fadeInUp" data-wow-delay="800ms">
+                <div class="service-block-new-3 col-sm-12 col-md-4 p-5">
                     <div class="inner-box p-3">
                         <i class="icon flaticon-laptop"></i>
                         <h6 class="title"><a href="<?php echo site_url(); ?>/no-contract/" aria-label="No Contract">No
@@ -453,7 +445,7 @@
         <div class="row">
             <!-- Content Column -->
             <div class="content-column col-lg-7 col-md-12 order-2">
-                <div class="inner-column wow fadeInRight">
+                <div class="inner-column">
                     <div class="sec-title light">
                         <i class="sub-title text-white">WHY CHOOSE US?</i>
                         <h2>Houston SEO</h2>
@@ -484,7 +476,7 @@
             </div>
             <!-- Features Column -->
             <div class="features-column col-lg-5 col-md-12 col-sm-12">
-                <div class="inner-column wow fadeInLeft">
+                <div class="inner-column">
                     <div class="bg-image"
                         style="background-image: url(<?php echo get_template_directory_uri(); ?>/images/resource/service-details.jpg)">
                     </div>
@@ -547,8 +539,7 @@
 
                 // Get the author's name
                 ?>
-            <div class="news-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp" id="<?php the_ID(); ?>"
-                data-wow-delay="300ms">
+            <div class="news-block col-lg-4 col-md-6 col-sm-12" id="<?php the_ID(); ?>">
                 <div class="inner-box">
                     <div class="image-box">
                         <figure class="image"><a href="<?php the_permalink(); ?>"><img src="<?php if (
@@ -694,7 +685,7 @@
             <div class="faq-column col-lg-6 col-md-12 col-sm-12">
                 <div class="inner-column">
 
-                    <ul class="accordion-box wow fadeInRight">
+                    <ul class="accordion-box">
                         <!--Block-->
                         <li class="accordion block">
                             <div class="acc-btn">7 Questions to Ask before Hiring an SEO Company

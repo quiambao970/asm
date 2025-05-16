@@ -16,37 +16,25 @@
     <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon.png" type="image/x-icon">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<?php if ( is_front_page() || is_home() ) : ?>
-    <link rel="preload" href="https://actualseomedia.com/wp-content/themes/asm/images/asm-logo.svg" as="image">
-	<link rel="preload" as="script" href="https://actualseomedia.com/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js" fetchpriority="high">
-<?php endif; ?>
-	<?php if (is_front_page()) : ?>
-    <?php 
-        $hero_image = wp_is_mobile() 
-            ? 'https://actualseomedia.com/wp-content/uploads/2025/02/hero1-mobile-optimized.webp' 
-            : 'https://actualseomedia.com/wp-content/uploads/2025/02/hero1-optimized-new.webp'; 
+
+    <link rel="preload" href="<?php echo get_site_url(); ?>">/wp-content/themes/asm/images/asm-logo.svg" as="image">
+	<link rel="preload" as="script" href="<?php echo get_site_url(); ?>">/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js" fetchpriority="high">
+
+	<?php 
+        if (is_front_page()){
+            $hero_image = wp_is_mobile() ? 
+                get_site_url() . '/wp-content/uploads/2025/02/hero1-mobile-optimized.webp' : 
+                get_site_url() . '/wp-content/uploads/2025/02/hero1-optimized-new.webp'; 
     ?>
-    <link rel="preload" href="<?php echo esc_url($hero_image); ?>" as="image" fetchpriority="high">
-<?php endif; ?>
-<script>(function(){var dbpr=100;if(Math.random()*100>100-dbpr){var d="dbbRum",w=window,o=document,a=addEventListener,scr=o.createElement("script");scr.async=!0;w[d]=w[d]||[];w[d].push(["presampling",dbpr]);["error","unhandledrejection"].forEach(function(t){a(t,function(e){w[d].push([t,e])});});scr.src="https://cdn.debugbear.com/dQkyGJtW3Ct5.js";o.head.appendChild(scr);}})()</script>
+            <link rel="preload" href="<?php echo esc_url($hero_image); ?>" as="image" fetchpriority="high">
+    <?php
+        }
+    ?>    
+
+    <script>(function(){var dbpr=100;if(Math.random()*100>100-dbpr){var d="dbbRum",w=window,o=document,a=addEventListener,scr=o.createElement("script");scr.async=!0;w[d]=w[d]||[];w[d].push(["presampling",dbpr]);["error","unhandledrejection"].forEach(function(t){a(t,function(e){w[d].push([t,e])});});scr.src="https://cdn.debugbear.com/dQkyGJtW3Ct5.js";o.head.appendChild(scr);}})()</script>
 
     <?php wp_head(); ?>
-	<link href="https://actualseomedia.com/wp-content/themes/asm/js/images/leaflet.css" rel="stylesheet">
-    <style>
-        .leaflet-container {
-            height: 400px;
-            width: 100%;
-            max-width: 800px;
-            margin-top:20px;
-        }
-    </style>
-    <?php
-		if( $post->ID == 2713 || $post->ID == 16102  || $post->ID == 16040  || $post->ID == 5513 || $post->ID == 3398 || $post->ID == 21109 || $post->ID == 16165 || $post->ID == 110601 ){
-	?>
-    	<script src="https://actualseomedia.com/wp-content/themes/asm/js/images/leaflet.js"></script>
-    <?php
-    	}
-    ?>
+	<link href="<?php echo get_template_directory_uri(); ?>/js/leaflet/leaflet.css" rel="stylesheet">
 </head>
 
 <body>

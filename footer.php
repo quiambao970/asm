@@ -6,8 +6,7 @@
         <div class="row">
             <!-- Content Column -->
             <div class="content-column col-lg-12 col-md-12">
-                <div class="inner-column wow fadeInRight animated animate pt-40 pb-0"
-                    style="visibility: visible; animation-name: fadeInRight;">
+                <div class="inner-column pt-40 pb-0">
                     <div class="row">
                         <div class="info-box col-lg-3 col-md-3">
                             <div class="inner">
@@ -372,79 +371,9 @@
 <!-- Scroll To Top -->
 <div class="scroll-to-top scroll-to-target" data-target="html"><span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M201.4 137.4c12.5-12.5 32.8-12.5 45.3 0l160 160c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L224 205.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l160-160z"/></svg></span></div>
 <script src="https://e2b49380.asmnewsite.pages.dev/assets/js/jquery.js"></script>
-<script src="https://e2b49380.asmnewsite.pages.dev/assets/js/popper.min.js"></script>
 <script src="https://e2b49380.asmnewsite.pages.dev/assets/js/bootstrap.min.js"></script>
-<script src="https://e2b49380.asmnewsite.pages.dev/assets/js/jquery.fancybox.js"></script>
-<script src="https://e2b49380.asmnewsite.pages.dev/assets/js/wow.js"></script>
-<script src="https://e2b49380.asmnewsite.pages.dev/assets/js/appear.js"></script>
-<script src="https://e2b49380.asmnewsite.pages.dev/assets/js/select2.min.js"></script>
-<script src="https://e2b49380.asmnewsite.pages.dev/assets/js/owl.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/leaflet/leaflet.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/script.js"></script>
-<style>
-.morecontent {
-    display: none;
-}
-</style>
-<script type="text/javascript">
-$(document).ready(function() {
-    if (window.innerWidth < 900) {
-        $('.sidebar').addClass('').removeClass('sidebar');
-        $('.content-wrapper').addClass('').removeClass('content-wrapper');
-    }
-	
-	<?php
-		if( $post->ID == 2713 || $post->ID == 16102  || $post->ID == 16040  || $post->ID == 5513 || $post->ID == 3398 || $post->ID == 21109 || $post->ID == 16165 || $post->ID == 110601 ){
-	?>
-			if($('#map').length > 0){
-				const map = L.map('map').setView([29.949149, -95.530085], 9);
-
-				L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {}).addTo(map);
-
-				const LeafIcon = L.Icon.extend({
-					options: {
-						iconSize:     [25, 41]
-					}
-				});
-
-				const greenIcon = new LeafIcon({iconUrl: 'https://actualseomedia.com/wp-content/themes/asm/js/images/images/marker-icon-2x.png'});
-
-				const marker1 = L.marker([30.156500, -95.469797], {icon: greenIcon}).addTo(map);
-				marker1.on('click', function () {
-				  window.open('https://maps.google.com/?q=10210+Grogans+Mill+Rd+Suite+230,+The+Woodlands,+TX+77380,+USA&ftid=0x864736b71f602361:0x75d995e827d6d84d', '_blank');
-				});
-
-				const marker2 = L.marker([29.949149, -95.530085], {icon: greenIcon}).addTo(map);
-				marker2.on('click', function () {
-				  window.open('https://maps.google.com/?q=16310+Tomball+Pkwy+Unit+1303,+Houston,+TX+77064,+USA&ftid=0x8640ce778c81f02d:0x9dd087cf5afbdae1', '_blank');
-				});
-
-				const marker3 = L.marker([29.740919, -95.778739], {icon: greenIcon}).addTo(map);
-				marker3.on('click', function () {
-				  window.open('https://maps.google.com/?q=24044+Cinco+Village+Center+Blvd+%23100d,+Katy,+TX+77494,+USA&ftid=0x864121c82645e9ff:0x32c6589ceaf90303', '_blank');
-				});
-
-				const marker4 = L.marker([29.746892, -95.606642], {icon: greenIcon}).addTo(map);
-				marker4.on('click', function () {
-				  window.open('https://maps.google.com/?q=1880+S+Dairy+Ashford+Rd+Suite+682,+Houston,+TX+77077,+USA&ftid=0x8640dc63c3fe3537:0xf3d300b13fecdadb', '_blank');
-				});
-
-				const marker5 = L.marker([29.7373, -95.4612679], {icon: greenIcon}).addTo(map);
-				marker5.on('click', function () {
-				  window.open('https://maps.google.com/?q=2800+Post+Oak+Blvd+%234100,+Houston,+TX+77056,+USA&ftid=0x8640c16e4d15db39:0xd7e0c8a03ef91cfb', '_blank');
-				});
-
-				const marker6 = L.marker([29.5721908, -95.6600841], {icon: greenIcon}).addTo(map);
-				marker6.on('click', function () {
-				  window.open('https://maps.google.com/?q=19901+Southwest+Fwy+%23310,+Sugar+Land,+TX+77479,+USA&ftid=0x8640e3cdbfb2de73:0x8260195979a8847a', '_blank');
-				});
-			}
-	<?php
-		}
-	?>
-});
-</script>
-
-
 <?php wp_footer(); ?>
 </body>
 

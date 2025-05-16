@@ -18,7 +18,7 @@ Template Name: Woodlands SEO Page
 		<img loading='eager' fetchpriority='high' decoding='async' src='<?php echo $img; ?>' alt='Woodlands SEO Page' aria-hidden='true'>
 	</div>
 <div class="auto-container">
-<div class="outer-box wow fadeIn">
+<div class="outer-box">
 <h1 class="title"><?php the_title(); ?></h1>
 <p class="text-white">
 Actual SEO Media, Inc. is a digital marketing agency dedicated to helping companies in the Greater Houston area and is one of the best The Woodlands SEO companies. Our developed strategies have allowed us to help businesses all over the U.S. with our Internet marketing services. What started with Houston SEO services quickly grew, and we now have offices located in Katy and Sugar Land as well.

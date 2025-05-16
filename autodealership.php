@@ -43,7 +43,7 @@
 			<div class="outer-box">
 				<div class="row">
 					<!-- Service Block Two -->
-					<div class="service-block-home4 col-sm-12 wow fadeInUp">
+					<div class="service-block-home4 col-sm-12">
 						<div class="inner-box">
 							<span class="count"><em>01</em></span>
 							<i class="icon flaticon-digital-services"></i>
@@ -70,7 +70,7 @@
 			<div class="outer-box">
 				<div class="row">
 					<!-- Content Column -->
-					<div class="content-column col-xl-6 col-lg-7 col-md-12 col-sm-12 order-2 wow fadeInRight" data-wow-delay="600ms">
+					<div class="content-column col-xl-6 col-lg-7 col-md-12 col-sm-12 order-2">
 						<div class="inner-column">
 							<div class="sec-title">
 								
@@ -86,11 +86,11 @@
 
 					<!-- Image Column -->
 					<div class="image-column col-xl-6 col-lg-5 col-md-12 col-sm-12">
-						<div class="inner-column wow fadeInLeft">
+						<div class="inner-column">
 							<div class="image-box">
 								<span class="icon-dots2"></span>
-								<figure class="image-1 overlay-anim wow fadeInUp"><img src="<?php echo get_template_directory_uri();?>/images/resource/about2-1.jpg" alt=""></figure>
-								<figure class="image-2 overlay-anim wow fadeInRight"><img src="<?php echo get_template_directory_uri();?>/images/resource/about2-2.jpg" alt=""></figure>
+								<figure class="image-1 overlay-anim"><img src="<?php echo get_template_directory_uri();?>/images/resource/about2-1.jpg" alt=""></figure>
+								<figure class="image-2 overlay-anim"><img src="<?php echo get_template_directory_uri();?>/images/resource/about2-2.jpg" alt=""></figure>
 							</div>
 							<div class="home4-image-column">
 								<div class="info-box">
@@ -141,9 +141,8 @@
 					<div class="inner-column">
 						<div class="image-box">
 							<figure class="image"><img src="https://actualseomedia.com/wp-content/uploads/2023/08/car-dealer-ship-1536x1024.webp" alt=""></figure>
-							<div class="caption-box wow slideInRight">
+							<div class="caption-box">
 								<div class="icon-box">
-									<!-- <a href="https://www.youtube.com/watch?v=Fvae8nxzVz4" class="play-now-home4 lightbox-image"><i class="icon fa fa-play"></i></a> -->
 								</div>
 								<div class="title-box">
 									<h5 class="title">Professional IT technology services you can trust</h5>
@@ -262,7 +261,7 @@
 			<div class="row">
 				<!-- Content Column -->
 				<div class="content-column col-lg-12">
-					<div class="inner-column wow fadeInRight">
+					<div class="inner-column">
 						<div class="sec-title">
 							<h2>Uplift Your Car Dealership</h2>
 						</div>
@@ -286,8 +285,6 @@ By following the rigid guidelines imposed on your advertising methods, your deal
 			<div class="video-box">
 				<div class="bg bg-image" style="background-image: url(https://actualseomedia.com/wp-content/uploads/2023/08/Car-Rental-Image-30-jpg.webp)"></div>
 				<div class="bg bg-overlay"></div>
-				<!-- <figure class="watch-video-text"><img src="<?php echo get_template_directory_uri();?>/images/resource/watch-video.png" alt=""></figure> -->
-				<!-- <a href="https://www.youtube.com/watch?v=Fvae8nxzVz4" class="play-btn" data-fancybox="gallery" data-caption=""><i class="icon fa fa-play" aria-hidden="true"></i></a> -->
 			</div>
 		</div>
 	</section>
@@ -320,7 +317,7 @@ By following the rigid guidelines imposed on your advertising methods, your deal
 	<!-- Call To Action Two -->
 	<section class="call-to-action-two">
 		<div class="auto-container">
-			<div class="outer-box wow fadeIn">
+			<div class="outer-box">
 				<div class="bg bg-pattern-10"></div>
 				<div class="title-box">
 					<h4 class="title">Get your <span class="color1">SEO</span><br> business consultation</h4>

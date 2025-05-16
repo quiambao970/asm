@@ -18,7 +18,7 @@ foreach ($recent_posts as $post) {
     $post_excerpt = wp_trim_words(get_the_excerpt($post->ID), 25); // Adjust the number of words as needed
 
     ?> 
-    <div class="news-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp" id="<?php the_ID(); ?>" data-wow-delay="300ms">
+    <div class="news-block col-lg-4 col-md-6 col-sm-12" id="<?php the_ID(); ?>">
         <div class="inner-box">
             <div class="image-box">
                 <figure class="image">
