@@ -17,8 +17,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="preload" href="<?php echo get_site_url(); ?>">/wp-content/themes/asm/images/asm-logo.svg" as="image">
-	<link rel="preload" as="script" href="<?php echo get_site_url(); ?>">/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js" fetchpriority="high">
+    <link rel="preload" href="<?php echo get_site_url(); ?>>/wp-content/themes/asm/images/asm-logo.svg" as="image">
+	<link rel="preload" as="script" href="<?php echo get_site_url(); ?>>/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js" fetchpriority="high">
 
 	<?php 
         if (is_front_page()){
