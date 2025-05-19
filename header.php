@@ -11,7 +11,7 @@
     <link href="https://e2b49380.asmnewsite.pages.dev/assets/css/bootstrap.min.css" rel="stylesheet">
 	<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;=fallback' type='text/css' media='all' />
     <link href="<?php echo get_template_directory_uri(); ?>/css/style.css?v=1" rel="stylesheet">
-    <link href="<?php echo get_template_directory_uri(); ?>/style.css" rel="stylesheet">
+
     <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon.png" type="image/x-icon">
     <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon.png" type="image/x-icon">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -34,7 +34,6 @@
     <script>(function(){var dbpr=100;if(Math.random()*100>100-dbpr){var d="dbbRum",w=window,o=document,a=addEventListener,scr=o.createElement("script");scr.async=!0;w[d]=w[d]||[];w[d].push(["presampling",dbpr]);["error","unhandledrejection"].forEach(function(t){a(t,function(e){w[d].push([t,e])});});scr.src="https://cdn.debugbear.com/dQkyGJtW3Ct5.js";o.head.appendChild(scr);}})()</script>
 
     <?php wp_head(); ?>
-	<link href="<?php echo get_template_directory_uri(); ?>/js/leaflet/leaflet.css" rel="stylesheet">
 </head>
 
 <body>
