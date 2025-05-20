@@ -2683,18 +2683,43 @@ min-width: 327px;
 
 ***/
 .mobile-nav-toggler {
-  position: relative;
-  font-size: 28px;
-  line-height: 20px;
-  cursor: pointer;
-  color: var(--theme-color1);
-  display: none;
-  top: -3px;
-  margin-left: 20px;
-  -webkit-box-ordinal-group: 9;
-  -ms-flex-order: 8;
-  order: 8;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 0  ;
+  right: 20px;
+  z-index: 9999;
 }
+
+.mobile-nav-toggler .icon{
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 2px;
+  background-color: #000;
+}
+
+.mobile-nav-toggler .icon::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 14px;
+  right: 0;
+  height: 2px;
+  background-color: #000;
+}
+
+.mobile-nav-toggler .icon::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 28px;
+  right: 0;
+  height: 2px;
+  background-color: #000;
+}
+
 @media (max-width: 991.98px) {
   .mobile-nav-toggler {
     display: block;
@@ -7648,8 +7673,12 @@ Section Title
 }
 
 .offer-section-home4 .image-column .image-box {
-  position: relative;
-  margin-right: -375px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: -375px;
+  bottom: 0;
+  overflow: hidden;
 }
 
 .offer-section-home4 .image-column .image-box .image {
